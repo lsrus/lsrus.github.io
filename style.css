@@ -1,0 +1,120 @@
+body {
+  background: #2c2c2c;
+  font-family: bitter, serif;
+  font-size: 16px;
+}
+.navbar-inverse {
+  background: #000000;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: orange;
+  color: black;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: orange;
+  color: black;
+}
+.navbar-inverse .navbar-text {
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+#projects {
+  padding-top: 50px;
+  color: #aaaaaa;
+}
+#about {
+  color: #2c2c2c;
+  background: orange;
+}
+#resources {
+  background: #2c2c2c;
+}
+.preamble {
+  text-align: center;
+}
+
+h1{
+  text-align: center
+  }
+#project-info {
+  border-top: 4px solid orange;
+  border-bottom: 4px solid orange;
+  margin: 30px 0;
+}
+#student-info {
+  padding: 15px;
+  border-top: 4px solid #2c2c2c;
+  border-bottom: 4px solid #2c2c2c;
+  margin: 30px 0;
+  background-color: white;
+}
+#resource-info{
+  padding: 5px 15px;
+  border-top: 4px solid orange;
+  border-bottom: 4px solid orange;
+  margin: 30px 0;
+  background-color: white;
+}
+#bar {
+  background: #2c2c2c;
+  height: 50px;
+}
+#bar2 {
+  background: orange;
+  height: 50px;
+}
+.project {
+  margin: 15px 0;
+}
+.project a {
+  margin: 8px 0;
+}
+.project .project-description {
+  padding: 2% 0;
+}
+.social{
+  padding: 5px;
+  text-align: center;
+  }
+  
+.pic-wrapper{
+  padding: 5px;
+  border: 3px solid black;
+  display: inline-block
+  }
+  
+ #social-links{
+   margin-top: 15px;
+ }
+  
+ #social-links p{
+   padding: 10px
+   }
+   
+ #resources .side-bar{
+  text-align: center;
+  color: #aaaaaa;
+ 
+ }
+ 
+ .blue{
+   background-color: #aeb7f9;
+   }
+   
+ .resource{
+   padding: 10px;
+   }
+   
+ .resource-image{
+     margin: 10px 0;
+     }
+ 
+ .finally h1{
+  text-align: left
+  }
+

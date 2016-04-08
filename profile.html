@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body data-spy='scroll' data-target='#nav' data-offset=150>
+  <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation' id='nav'>
+    <div class='container-fluid'>
+      <div class='navbar-header'>
+        <p class='navbar-text'><strong>Laura T</strong><span class='hidden-xs'>: Learner Portfolio</span></p>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class='nav navbar-nav'>
+          <li><a href="#projects">Projects <span class="sr-only">(current)</span></a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </div>
+
+      </div>
+  </nav>
+  <div class='container-fluid'>
+    <div id='projects' class= 'row'>
+      <div class ='col-sm-2 preamble'>
+        <h2>Trinkets and Baubles</h2>
+        <p> This is a collection of frontend projects that I have made whilst following the freecodecamp online course. APIs and full-stack apps to follow!
+      </div>
+      <div class = 'col-sm-10'>
+        <div id = 'project-info'>
+          <div class = row>
+            <div class = 'project col-md-6'>
+              <img class='img-responsive' src = 'images/ransom-quotes.png'>
+              <div class='project-description'>
+              <a href  = http://codepen.io/lsrus/full/QyPNBV target = '_blank'>
+                <strong>Ransom Quotes</strong></a>
+              <p>Threaten yourself inspired with this ransom note style random quote generator. The forismatic api is used to generate the quotes.</p>
+              </div>
+            </div>
+            <div class = 'project col-md-6'>
+              <img class='img-responsive' src = 'images/naughtsandcrosses.png'>
+              <div class='project-description'>
+              <a href  = http://codepen.io/lsrus/full/mPWXBK target = '_blank'>
+                <strong>Naughts and Crosses</strong></a>
+              <p>Play naughts and crosses against a simple minimax algorithm. The squares color co-ordinate on the computer turn to show the algorithm results.</p>
+                </div>
+            </div>
+            <div class = 'project col-md-6'>
+              <img class='img-responsive' src = 'images/timer.png'><div class='project-description'>
+              <a href  = http://codepen.io/lsrus/full/rewNOM/ target = '_blank'>
+                <strong>Wedge Timer</strong></a>
+              <p>This pomedoro-style timer allows you to split time into work chunks and breaks, each customisable between 1 minute and 1 hour.</p>
+              </div>
+            </div>
+            <div class = 'project col-md-6'>
+              <img class='img-responsive' src = 'images/calc.png'>
+              <div class='project-description'>
+              <a href  = http://codepen.io/lsrus/full/eZzQvo target = '_blank'>
+                <strong>Vanilla Calculator</strong></a>
+              <p>A calculator implemented in plain javasript and CSS. Featuring automatic closing brackets and a scrollable history which can be edited and reused.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='about' class = row>
+      <div id = 'bar'></div>
+      <div class= 'col-sm-2'>
+        <h1>Me</h1>
+      </div>
+      <div class = 'col-sm-10'>
+        <div id='student-info'>
+          <p>I'm currently learning full-stack web development using the <a href='https://www.freecodecamp.com' target='_blank'>freecodecamp</a> map. I enjoy problem solving, learning new things and procrastinating on CodeWars. Here are a few links for me on social media, why not tell me how you think I could improve?</p>
+          <div class='row' id='social-links'>
+            <div class = 'col-sm-6 col-md-3  social'>
+              <div class='pic-wrapper'><a href='https://github.com/lsrus' target='_blank'><img  class = 'social-image' src = 'images/github.png'></a></div>
+              <p>Obligatory GitHub link</p>
+            </div>
+            <div class = 'col-sm-6 col-md-3 social'>
+              <div class='pic-wrapper'><a href='https://twitter.com/lsru_s' target='_blank'><img  class = 'social-image' src = 'images/twitter.jpg'></a></div>
+              <p>Experience my silence on twitter</p>
+            </div>
+            <div class = 'col-sm-6 col-md-3  social'>
+              <div class='pic-wrapper'><a href='https://www.freecodecamp.com/lsrus' target='_blank'><img  class = 'social-image' src = 'images/fcc.png'></a></div>
+              <p>See how I'm progressing on freecodecamp</p>
+            </div>
+            <div class = 'col-sm-6 col-md-3  social'>
+              <div class='pic-wrapper'><a href='http://www.codewars.com/users/lsrus' target='_blank'><img  class = 'social-image' src = 'images/codewars.jpg'></a></div>
+              <p>Let's be allies on CodeWars</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='resources' class = 'row'>
+      <div id = 'bar2'></div>
+      <div class= 'col-sm-2 side-bar'>
+        <h3>Resources</h3>
+        <p>If you're learning web development too, or would like to, here are some of my favorite websites and books. </p>
+      </div>
+      <div class='col-sm-10'>
+      <div id='resource-info'>
+          <h1>Websites</h1>
+        <div class='row resource'>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='https://www.freecodecamp.com' target='_blank'>
+              <img class='img-responsive' src = 'images/fcc_screenshot.png'>
+            </a>
+          </div>
+          <div class='col-sm-8 resource-caption'>
+          <p>As you have probably already been able to tell, I'm a big fan of freecodecamp. You can use the map on the website to guide yourself through building your own portfolio. With the support available on this site, I have started using Node.js and deploying to Heroku, which I couldn't envision doing previously
+          </p>
+          </div>
+          </div>
+          <div class= 'row resource blue'>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='https://www.edx.org/course/introduction-computer-science-harvardx-cs50x' target='_blank'>
+              <img class='img-responsive' src = 'images/cs50.png'>
+            </a>
+          </div>
+          <div class='col-sm-8 resource-caption'>
+          <p>Learn introductory computer science as it's taught at Havard. You can follow the course completely free, or upgrade to a verified version. You'll learn a little C, but the biggest selling point for me is the enthusiastic introduction to basic computer science topics.
+          </p>
+          </div>
+          </div>
+          <div class= 'row resource'>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='http://www.codewars.com/' target='_blank'>
+              <img class='img-responsive' src = 'images/codewars_screenshot.png'>
+            </a>
+          </div>
+          <div class='col-sm-8 resource-caption'>
+          <p>On CodeWars, you can choose from a massive collection of Kata, that get harder as you improve your Javascript (or Python, Ruby, Cojure, Java...). Best of all; once you have submitted a working solution, you can see how other members have solved it, allowing you to pick up new tricks.
+          </p>
+          </div>
+          </div>
+          <div class= 'row resource blue'>
+          <h1 id = 'books'>Books</h3>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='http://eloquentjavascript.net/' target='_blank'>
+              <img class='img-responsive' src = 'images/cover.png'>
+            </a>
+          </div>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='http://eloquentjavascript.net/' target='_blank'>
+              <img class='img-responsive' src = 'images/sicp_cover.jpg'>
+            </a>
+          </div>
+          <div class = 'col-sm-4 resource-image'>
+            <a href='http://shop.oreilly.com/product/9780596517748.do' target='_blank'>
+              <img class='img-responsive' src = 'images/jstgp.jpg'>
+            </a>
+          </div>
+          </div>
+          <div class= 'row resource'>
+          <div class='col-sm-8 finally'>
+          <h1>And finally</h1>
+           Why not:
+           <ul>
+            <li> Try meeting with fellow learners on <a href='http://www.meetup.com'>Meetup</a></li>
+            <li> Have fun on <a href='https://flukeout.github.io/'>CSS Dinner</a></li>
+            <li> Watch this <a href='https://www.youtube.com/watch?v=Xe1TZaElTAs&eurl'>talk</a> on community
+           </ul>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
